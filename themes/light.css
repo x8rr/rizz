@@ -1,0 +1,51 @@
+body {
+    background-color: white;
+    color: black;
+    font-family: 'Segoe UI';
+}
+
+h1 {
+    font-weight: 650;
+    color: black;
+    font-size: 40px;
+}
+
+button {
+    height: 75px;
+    font-family: 'Segoe UI';
+    border-radius: 14px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: dodgerblue;
+    background-color: dodgerblue;
+    color: white;
+    width: 165px;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+button:hover {
+    scale: 110%;
+}
+
+p {
+    font-family: 'Segoe UI';
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.switcher {
+    font-size: 15px;
+    font-family: 'Segoe UI';
+    height: 50px;
+    border-radius: 14px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: dodgerblue;
+    background-color: dodgerblue;
+    color: white;
+    width: 100px;
+    transition: 0.5s;
+    margin-left: 15px;
+}
+
