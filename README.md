@@ -22,3 +22,4 @@ RandomRizz is where you can get those pickup lines, and even potentially snatch 
 - Scripted the theme switcher
 - Did most of the HTML
 - Also has a YouTube channel [(Right Here)](https://youtube.com/@syntax.error.history.)
+- <a href="https://youtube.com/@syntax.error.history." target="_blank">(Right Here)</a>
