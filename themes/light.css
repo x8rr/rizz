@@ -49,3 +49,21 @@ p {
     margin-left: 15px;
 }
 
+.button-big {
+    height: 75px;
+    font-family: 'Segoe UI';
+    border-radius: 14px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: dodgerblue;
+    background-color: dodgerblue;
+    color: white;
+    width: 165px;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.button-big:hover {
+    scale: 145%;
+}
+

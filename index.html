@@ -8,18 +8,27 @@
     <title>RandomRizz</title>
 </head>
 <body>
-    <h1 style="margin-left: 15px; margin-bottom: -10px;">RandomRizz</h1>
-    <p style="margin-left: 15px;">Your free rizzler companion.</p>
-    <button class="switcher" onclick="changeTheme('themes/light.css')">Light Mode</button> <button class="switcher" onclick="changeTheme('themes/dark.css')">Dark Mode</button>
-    <p style="color: transparent; font-size: 5px;">hello!</p>
-    <hr>
-    <h2 style="margin-left: 15px;">Your Rizzler Types</h2>
-    <button onclick="getRizz('illegal_rizz')" style="margin: 15px;">Illegal Rizz >:)</button>
-    <button onclick="getRizz('awesome_rizz')" style="margin-top: -30px;">Awesome Rizz :)</button>
-    <button onclick="getRizz('arab_rizz')" style="margin: 15px;">Arab Rizz >:)</button>
-    <button onclick="getRizz('evil_rizz')" style="margin-top: -30px;">Evil Rizz :)</button>
-    <button onclick="getRizz('legal_rizz')" style="margin: 15px;">Legal Rizz >:)</button>
-    <button onclick="getRizz('other_rizz')" style="margin-top: -30px;">Other Rizz :)</button>
+    <center>
+        <h1 style="margin-bottom: -10px;">RandomRizz</h1>
+        <p>Your free rizzler companion.</p>
+        <button class="switcher" onclick="changeTheme('themes/light.css')">Light Mode</button> <button class="switcher" onclick="changeTheme('themes/dark.css')">Dark Mode</button>
+        <p style="color: transparent; font-size: 5px;">hello!</p>
+        <hr>
+        <br>
+    </center>
+
+    <center>
+        <h1 id="randomrizz">Rizz will appear here!</h1>
+    </center>
+
+<br><br>
+
+    <center>
+        <button onclick="randomRizzler()" style="margin-top: -30px; scale: 115%;" class="button-big">Random Rizz</button>
+    </center>
+
+    <br>
+
 
     <script src="main.js"></script>
 </body>
