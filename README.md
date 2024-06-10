@@ -13,7 +13,7 @@ RandomRizz is where you can get those pickup lines, and even potentially snatch 
 - Did all of the CSS
 - Had the idea for light/dark mode
 - Helped with HTML
-- Has a YouTube channel which you can see right url[https://youtube.com/@cobblesteve.official]here.
+- Has a YouTube channel which you can see right [here.](youtube.com/@cobblesteve.official)
 - yea :D
 
 ### SyntaxError52
@@ -21,4 +21,4 @@ RandomRizz is where you can get those pickup lines, and even potentially snatch 
 - Made the original JavaScript
 - Scripted the theme switcher
 - Did most of the HTML
-- Also has a YouTube channel url[https://youtube.com/@syntax.error.history.](right here)
+- Also has a YouTube channel [(Right Here)](youtube.com/@syntax.error.history.)
