@@ -22,3 +22,10 @@ RandomRizz is where you can get those pickup lines, and even potentially snatch 
 - Scripted the theme switcher
 - Did most of the HTML
 - Also has a YouTube channel [(Right Here)](https://youtube.com/@syntax.error.history.)
+
+### SprintingSnail
+- Helping with CSS/HTML
+- Has rizz
+- Can rizz you up
+- Will rizz you up
+# RIZZ

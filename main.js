@@ -1,11 +1,13 @@
 const rizzData = {
     "illegal_rizz": "Your in your bed, I am in mine. \n One of us is in the wrong place.",
-    "awesome_rizz": "Before I came there was no d in you. That will change.",
+    "awesome_rizz": "Before I came there was no D in you. That will change.",
     "arab_rizz": "Do you want to make some twin towers?",
     "evil_rizz": "Are you a crime scene? \n Because I can't resist leaving my DNA all over you.",
     "legal_rizz": "Are you an artist? \n Because you're really good at drawing me in ;)",
+    "adam_rizz": "Are you food? \n Because I'm going to fanum tax you.",
     "other_rizz": "Are you a light switch? \n Because you turn me on!!"
 };
+//Adam I personally would not take that amount of disrespect ;)//
 
 function getRizz(type) {
     switch (type) {
@@ -16,13 +18,16 @@ function getRizz(type) {
             window.alert(rizzData.awesome_rizz);
             break;
         case 'arab_rizz':
-                window.alert(rizzData.arab_rizz);
-                break;
+            window.alert(rizzData.arab_rizz);
+            break;
         case 'evil_rizz':
             window.alert(rizzData.evil_rizz);
             break;
         case 'legal_rizz':
             window.alert(rizzData.legal_rizz);
+            break;
+        case 'adam_rizz':
+            window.alert(rizzData.adam_rizz);
             break;
         case 'other_rizz':
             window.alert(rizzData.other_rizz);
@@ -72,12 +77,16 @@ function randomRizzler() {
             document.getElementById('randomrizz').textContent = 'If you were a vegetable, you\'d be a CUTEcumber!'
             break;
         case 9:
-            document.getElementById('randomrizz').textContent = 'Are you a bank loan? Because you have got my intrest!'
+            document.getElementById('randomrizz').textContent = 'Are you a bank loan? Because you have got my interest!'
             break;
         case 10:
             document.getElementById('randomrizz').textContent = 'Are you a camera? Because every time I look at you, I smile.'
             break;
         case 11:
             document.getElementById('randomrizz').textContent = 'Are you a dictionary? Cause you\'re adding meaning to my life.'
+            break;
+        case 12:
+            document.getElementById('randomrizz').textContent = 'Are you food? Because I\'m going to fanum tax you.'
+            break;
     }
 }
