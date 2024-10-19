@@ -46,7 +46,7 @@ function changeTheme(filename) {
 function randomRizzler() {
     var randomRizz = '';
 
-    let randomNumber = Math.floor(Math.random() * 10);
+    let randomNumber = Math.floor(Math.random() * 13);
 
     switch (randomNumber) {
         case 0:

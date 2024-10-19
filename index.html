@@ -24,9 +24,14 @@
 <br><br>
 
     <center>
-        <button onclick="randomRizzler()" style="margin-top: -30px; scale: 115%;" class="button-big">Random Rizz <audio style="display: none;" controls autoplay src="audio/rizz.mp3"></audio> </button>
+        <button onclick="randomRizzler()" onclick="playAudio()" style="margin-top: -30px; scale: 115%;" class="button-big">Random Rizz</button>
+        <script type="text/javascript">
+            function playAudio() {
+            document.getElementById('rizz.mp3').play()
+            }
+        </script>
     </center>
-
+<br><br>
     <center>
         <a href="https://github.com/SyntaxError52/rizz" class="switcher" target="_blank">Github</a>
     </center>
