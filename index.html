@@ -24,7 +24,7 @@
 <br><br>
 
     <center>
-        <button onclick="randomRizzler()" onclick="playAudio()" style="margin-top: -30px; scale: 115%;" class="button-big">Random Rizz</button>
+        <button onclick="randomRizzler()" id="audio" style="margin-top: -30px; scale: 115%;" class="button-big">Random Rizz</button>
         <script type="text/javascript">
             function playAudio() {
             document.getElementById('rizz.mp3').play()
@@ -37,6 +37,8 @@
     </center>
 
     <br>
+
+    <audio src="audio/rizz.mp3" id="play"></audio>
 
 
     <script src="main.js"></script>

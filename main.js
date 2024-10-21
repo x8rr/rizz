@@ -43,6 +43,10 @@ function changeTheme(filename) {
     stylesheet.href = filename;
 }
 
+document.querySelector('#audio').addEventListener('click' = function() {
+    document.getElementById('play').audio.play()
+})
+
 function randomRizzler() {
     var randomRizz = '';
 
