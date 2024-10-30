@@ -6,10 +6,21 @@
     <link rel="stylesheet" href="themes/dark.css" id="theme-stylesheet">
     <link rel="shortcut icon" href="https://www.dictionary.com/e/wp-content/uploads/2018/09/smirking-face.png   " type="image/x-icon">
     <title>RandomRizz</title>
+    <script>
+        window.onload = function() {
+            var x = document.getElementById("toast");
+            x.className = "show";
+            setTimeout(function(){ x.className = x.className.replace("show", ""); }, 6000);
+          };
+    </script>
 </head>
 <body>
+    <div id="toast">
+        <img src="volume.svg" alt="">
+        This website contains sounds. Please turn up your volume.
+    </div>
     <center>
-        <h1 style="margin-bottom: -10px;">RandomRizz</h1>
+        <h1 style="margin-bottom: -10px; font-size: 50px;">RandomRizz</h1>
         <p>Your free rizzler companion.</p>
         <button class="switcher" onclick="changeTheme('themes/light.css')">Light Mode</button> <button class="switcher" onclick="changeTheme('themes/dark.css')">Dark Mode</button>
         <p style="color: transparent; font-size: 5px;">hello!</p>
@@ -25,20 +36,18 @@
 
     <center>
         <button onclick="randomRizzler()" id="audio" style="margin-top: -30px; scale: 115%;" class="button-big">Random Rizz</button>
-        <script type="text/javascript">
-            function playAudio() {
-            document.getElementById('rizz.mp3').play()
-            }
-        </script>
     </center>
-<br><br>
-    <center>
-        <a href="https://github.com/SyntaxError52/rizz" class="switcher" target="_blank">Github</a>
-    </center>
+<br><br><br>
+
+    <div class="madebycobblesteve">Made by <a href="https://cobblesteve01.github.io">cobblesteve01</a>, <a href="https://syntaxerror52.github.io">SyntaxError52</a>, and <a href="https://github.com/SprintingSnail69">SprintingSnail69</a></div>
+
 
     <br>
 
-    <audio src="audio/rizz.mp3" id="play"></audio>
+
+
+    <audio src="audio/rizz.mp3" id="rizzsound"></audio>
+    <audio src="audio/hitmarker.mp3" id="keydown"></audio>
 
 
     <script src="main.js"></script>

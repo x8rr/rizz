@@ -40,6 +40,9 @@ function changeTheme(filename) {
 
 function randomRizzler() {
     var randomRizz = '';
+    const sound = document.getElementById('rizzsound');
+    sound.play()
+    sound.currentTime = 1;
 
     let randomNumber = Math.floor(Math.random() * 10);
 
@@ -81,3 +84,9 @@ function randomRizzler() {
             document.getElementById('randomrizz').textContent = 'Are you a dictionary? Cause you\'re adding meaning to my life.'
     }
 }
+
+document.getElementsByClassName('big').addEventListener('click', () => {
+    const sound = document.getElementById('rizzsound');
+    sound.play()
+    sound.currentTime = 1;
+});
