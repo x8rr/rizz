@@ -8,7 +8,7 @@ RandomRizz is where you can get those pickup lines, and even potentially snatch 
 
 ## Meet the Developers
 
-### cobblesteve01
+### x8r
 - Made the Javascript randomizer
 - Did all of the CSS
 - Had the idea for light/dark mode
