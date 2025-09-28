@@ -13,7 +13,6 @@ RandomRizz is where you can get those pickup lines, and even potentially snatch 
 - Did all of the CSS
 - Had the idea for light/dark mode
 - Helped with HTML
-- Has a YouTube channel which you can see right [here.](https://youtube.com/@cobblesteve.official)
 - yea :D
 
 ### SyntaxError52
